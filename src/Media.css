@@ -1,0 +1,467 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .userimage {
+    padding: 20px;
+  }
+  .content-box {
+    padding: 10px 18px;
+  }
+  .content-body {
+    width: 100%;
+    position: relative;
+  }
+  .mobile-responsive {
+    display: block;
+  }
+  .sidebar.screen-sidebar > nav {
+    display: none;
+  }
+  .mobile-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: #fff;
+    box-shadow: 0 0 10px #ccc;
+  }
+  .sidebar {
+    height: auto;
+  }
+  .sidebar > nav {
+    width: 100%;
+    height: auto;
+    box-shadow: none;
+  }
+  .mobile-sidebar .content-body {
+    display: none;
+  }
+  .bar-menu i {
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .body-background {
+    padding: 0;
+  }
+  .content-body-section {
+    padding: 20px 0;
+  }
+  .faq-page.content-body-section.support-block {
+      padding: 15px 0 15px 15px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .fund-cell,
+  .tabspage .col-md-4 {
+    margin-bottom: 20px;
+  }
+
+  .risk-box h6 {
+    text-align: center;
+  }
+  .profile-content.col-md-8 {
+    margin-top: 24px;
+  }
+  .profile-block .profile-wrap {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tabs-wrapper a {
+    padding: 3px 5px;
+  }
+  .wrap-link a {
+    text-align: center;
+  }
+
+  .wrap-link .col-md-12,
+  .blue-strip,
+  .risk-box {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .risk-box h6 {
+    text-align: right;
+  }
+
+  .last-box {
+    display: block;
+    width: 100%;
+  }
+
+  .first-box {
+    margin-bottom: 10px;
+  }
+
+  .last-box {
+    margin-top: 10px;
+  }
+
+  .wrap-link h1.equity {
+    margin-bottom: 10px;
+  }
+
+  .value {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .selling-btn.invest-btn.text-right {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: end;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+
+  .selling-btn.invest-btn a {
+    margin-bottom: 0;
+  }
+
+  .selling-btn.invest-btn a:first-child {
+    margin-right: 10px;
+  }
+
+  .inside-withdrawals h5 {
+    font-size: 12px;
+  }
+
+  .make-investment-steps .wrapper {
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .make-investment-steps a.investment-btn {
+    position: relative;
+    margin: 10px auto 20px;
+  }
+
+  .fund-border-right:after {
+    display: none;
+  }
+
+  .feature-funds-block .media p {
+    min-height: auto;
+  }
+
+  .setting-block .col-md-6 {
+    margin-bottom: 20px;
+  }
+
+  .custom-main-wrap-padding {
+    padding: 10px;
+  }
+
+  .form-control-file {
+    width: 215px;
+  }
+
+  .facard .head h6 {
+    font-size: 15px;
+  }
+
+  .file-upload-label {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .faq-page.content-body-section.support-block {
+      padding: 15px 0 15px;
+  }
+  .faq-page .tab-area {
+    position: relative;
+    top: 0;
+    height: auto;
+    margin: 0 15px 20px;
+  }
+}
+@media screen and (max-width: 698px) {
+  .unitprice-wrapper {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .unitprice-wrapper .list {
+    margin-right: 26px;
+  }
+
+  .unitprice-wrapper .list:last-child {
+    margin-right: 0;
+  }
+
+  .heading-margin {
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 19px;
+    line-height: 26px;
+  }
+
+  .unitprice-wrapper .list h3 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .unitprice-wrapper .list span {
+    padding: 5px 13px;
+    font-size: 15px;
+  }
+
+  .unitprice-wrapper .list h3 {
+    display: block;
+    margin: 0 auto 5px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .investment-chart-options li {
+    padding-right: 13px;
+    padding-left: 16px;
+  }
+
+  .down-btn-wrap {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .theme_btn {
+    margin-bottom: 15px;
+  }
+
+  .popover__content {
+    width: 272px;
+  }
+}
+
+@media screen and (max-width: 579px) {
+  .inside-withdrawals {
+    text-align: left;
+  }
+  .inside-withdrawals h5 {
+    font-size: 13px;
+  }
+
+  /* popovers css control*/
+  .risk-indicator .popover__content {
+    width: 250px;
+    margin-left: -117px;
+    left: 50%;
+  }
+
+  .risk-indicator .popover__content-left:before {
+    left: 112px;
+  }
+
+  .media-left-popover-control .popover__content-center {
+    margin-left: 0;
+  }
+
+  .media-left-popover-control .popover__content-center:before {
+    right: auto;
+    left: 3px;
+  }
+
+  .media-right-popover-control .popover__content-center {
+    margin-left: -215px;
+  }
+
+  .popover__content-center:before {
+    right: 42px;
+  }
+
+  .current-val .popover__content-right {
+    right: -76px;
+  }
+
+  .current-val .popover__content-right:before {
+    right: 74px;
+  }
+
+  .performance-dash .popover__content {
+    margin-left: -181px;
+  }
+  .performance-dash .popover__content-center:before {
+    right: 77px;
+  }
+  .performance-fund .popover__content-right {
+    right: -62px;
+  }
+  .performance-fund .popover__content-right:before {
+    right: 60px;
+  }
+
+  .twofa-pulse .popover__content-left {
+      left: 0;
+      margin-left: -129px;
+      right: 0;
+  }
+
+  .twofa-pulse .popover__content-left:before {
+      left: 127px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .Custom__modal .form-group {
+    margin-bottom: 10px;
+  }
+
+  .Custom__modal .modal-footer {
+    padding-top: 0;
+  }
+
+  .profile-content .nav-tabs .nav-link {
+    font-size: 16px;
+    padding: 9px 7px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .blue-strip {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: end;
+  }
+
+  .blue-strip span {
+    margin-bottom: 6px;
+  }
+
+  .blue-strip span:last-child {
+    margin-bottom: 0;
+  }
+
+  .investment-chart-options li {
+    display: block;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 7px;
+    padding: 7px 0;
+  }
+
+  .investment-chart-options li:first-child {
+    padding-top: 0;
+  }
+
+  .investment-chart-options li:last-child {
+    border-bottom: none;
+  }
+
+  .white-background {
+    padding: 15px;
+  }
+
+  .footer-risk-box {
+    text-align: center;
+  }
+
+  .middle-box {
+    padding: 7px 15px;
+  }
+
+  .make-investment-steps .wrapper {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+  }
+
+  .make-investment-steps a {
+    width: 45%;
+    margin-bottom: 4px;
+  }
+
+  .unitprice-wrapper {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .investment-overview .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: end;
+  }
+
+  .unitprice-wrapper .list,
+  .investment-overview .download-btn {
+    margin-bottom: 13px;
+  }
+
+  /* popovers css control*/
+  .risk-indicator .popover__content,
+  .media-left-popover-control .popover__content-center,
+  .tax-owed .popover__content-center {
+    width: 250px;
+    margin-left: -117px;
+    left: 50%;
+  }
+
+  .risk-indicator .popover__content-left:before,
+  .media-left-popover-control .popover__content-center:before,
+  .tax-owed .popover__content-center:before {
+    left: 112px;
+  }
+
+  .tax-owed .popover__content-right {
+    right: 0;
+    margin-right: 0;
+    left: 0;
+  }
+
+  .tax-owed .popover__content-right:before {
+    right: 107px;
+  }
+
+  .inside-withdrawals
+    .media-right-popover-control
+    .popover__content-center:before {
+    right: 30px;
+  }
+
+  .inside-withdrawals .media-right-popover-control .popover__content-center {
+    margin-left: -226px;
+  }
+
+  .unitprice-wrapper .list {
+    margin-right: 10px;
+  }
+
+  .unitprice-wrapper {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .unitprice-wrapper .list {
+    margin-right: 0;
+  }
+
+  .setting-block .facard h1 {
+    margin-right: 0;
+  }
+}
